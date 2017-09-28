@@ -1,0 +1,177 @@
+/* navbar style */
+.navbar {
+    margin-bottom: 0;
+    background-color: #474e5d;
+    z-index: 9999;
+    border-bottom: 2px solid;
+    border-color: #ff3300;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #ff3300 !important;
+}
+
+.navbar-brand {
+	font-size: 20pt;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #474e5d !important;
+    background-color: #ff3300 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #ff3300 !important;
+}
+
+/* carousel style */
+.carousel {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.carousel-inner img {
+    width: 70%;
+    height: 50%;
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #ff3300 !important;
+    font-weight: bold;
+}
+
+.carousel-indicators li {
+    background-color: #474e5d;
+    border-color: #474e5d;
+}
+
+.carousel-indicators .active {
+    background-color: #ff3300;
+    border-color: #ff3300;
+}
+
+.carousel-control{
+	background-color: #474e5d;
+	border-radius: 10px;
+}
+
+.carousel-control .active {
+	border-radius: 10px;
+}
+
+.arrow {
+	color: #ff3300;
+}
+
+.carousel-caption p {
+    color: #ff3300;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+/* Modal Style */ 
+.modal {
+	padding-top: 70px;
+	background: black;
+ `	background-color: black;
+}
+
+.modal-content {
+	background-color: #474e5d;
+	color: #ff3300;
+}
+
+.modal-body {
+	text-align: center;
+	
+}
+
+.buttons {
+	color: #ff3300;
+	background-color: #474e5d;
+	border-color: #ff3300;
+	font-weight: 600;
+}
+
+.modal-title {
+	font-family: Algerian;
+    font-size: 32pt !important;
+    font-weight:500;
+	color: #ff3300;
+    letter-spacing: 5px;
+	margin-bottom: 5px;
+	padding-left: 45px;
+}
+
+/* Lightbox Style */ 
+
+
+/* General Style */ 
+.container-fluid {
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.title {
+	font-family: Algerian;
+    font-size: 60pt !important;
+    font-weight:500;
+	color: #ff3300;
+    letter-spacing: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+.header {
+	background-color: transparent;
+}
+
+.section{
+	background-color: #474e5d;
+	border: 5px solid #ff3300;
+	border-radius: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 7.5%;
+
+}
+
+.fix{
+	padding-top: 5px;
+	padding-bottom: 25px;
+}
+
+.background {
+	background-image: url("./../images/camoForest2.JPG");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p {
+	font-size: 20pt;
+}
+
+b {
+	font-size: 16pt;
+}
+
+.name {
+	font-size: 24pt;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	color: #ff3300;
+	font-size: 16pt;
+}
